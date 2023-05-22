@@ -6,7 +6,7 @@
 
 header {
     background-image: url("../imgs/pattern.png");
-    background-size: contain;
+    background-size: 400px;
     background-repeat: repeat-x;
     background-color: #4EA0FF;
     height: 100px;
@@ -18,13 +18,17 @@ h1 {
 }
 
 #Logo {
-    width: 250px;
-    margin-top: 25px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 45px;
 }
 
 #Bool {
     color: #2BADE6;
     font-weight: 600;
+}
+span{
+    font-size: 10px;
 }
 
 .write {
