@@ -1,9 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
     background-image: url("../imgs/pattern.png");
     background-size: contain;
@@ -13,6 +13,7 @@ header {
 }
 
 h1 {
+    margin-top: 10px;
     font-size: 40px;
 }
 
@@ -24,6 +25,10 @@ h1 {
 main{
     margin-left: 5px;
 }
+.list{
+    margin-left:15px ;
+    margin-bottom: 20px;
+}
 
 .photo-description{
     font-size: 10px;
@@ -33,7 +38,24 @@ main{
     margin-bottom: 20px;
     color: grey;
 }
+table{
+    table-layout: auto;
+    width: 100%;
+    border-spacing: 0;
+}
 
+thead{
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+.light-blue{
+    background-color: #B1E5F2;
+}
+
+.table-50{
+    width: 50%;
+}
 
 span {
     color: #2BADE6;
