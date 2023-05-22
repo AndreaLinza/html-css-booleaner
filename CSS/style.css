@@ -1,9 +1,9 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background-image: url("../imgs/pattern.png");
     background-size: contain;
@@ -17,51 +17,85 @@ h1 {
     font-size: 40px;
 }
 
-
 #Logo {
     width: 250px;
     margin-top: 25px;
 }
-main{
-    margin-left: 5px;
-}
-.list{
-    margin-left:15px ;
-    margin-bottom: 20px;
+
+#Bool {
+    color: #2BADE6;
+    font-weight: 600;
 }
 
-.photo-description{
-    font-size: 10px;
-}
-
-.write{
+.write {
     margin-bottom: 20px;
     color: grey;
 }
-table{
+
+main {
+    margin-left: 5px;
+}
+
+.list {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.photo-description {
+    font-size: 10px;
+}
+
+table {
     table-layout: auto;
     width: 100%;
     border-spacing: 0;
 }
 
-thead{
+thead {
     background-color: #20A9E5;
     color: white;
     text-align: left;
 }
-.light-blue{
+
+.light-blue {
     background-color: #B1E5F2;
 }
 
-.table-50{
+.table-50 {
     width: 50%;
 }
 
-span {
-    color: #2BADE6;
-    font-weight: 600;
+.text-highlighted {
+    margin: 25px 0;
 }
 
-.text-highlighted{
-    margin: 25px 0;
+footer {
+    margin: 5px;
+}
+
+.announcement {
+    color: grey;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.pic-1 {
+    background-image: url('../imgs/monitor.jpg');
+    color: white;
+    width: 312px;
+    height: 208px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.pic-2 {
+    background-image: url('../imgs/graph.jpg');
+    color: white;
+    width: 312px;
+    height: 208px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 25px;
 }
