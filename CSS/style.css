@@ -1,12 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-image: url("../imgs/pattern.png");
     background-size: contain;
     background-repeat: repeat-x;
-    background-color: aqua;
+    background-color: #4EA0FF;
     height: 100px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+
 #Logo {
     width: 250px;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+main{
+    margin-left: 5px;
+}
+
+.photo-description{
+    font-size: 10px;
+}
+
+.write{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+
+span {
+    color: #2BADE6;
+    font-weight: 600;
+}
+
+.text-highlighted{
+    margin: 25px 0;
 }
