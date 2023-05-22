@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../imgs/pattern.png");
+    background-size: 400px;
+    background-repeat: repeat-x;
+    background-color: #4EA0FF;
+    height: 100px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#Logo {
+    width: 150px;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+#Bool {
+    color: #2BADE6;
+    font-weight: 600;
+}
+span{
+    font-size: 10px;
+}
+
+.write {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+main, footer{
+    width: 1200px;
+    margin:auto
+    
+}
+
+.list {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.photo-description {
+    font-size: 10px;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+
+.light-blue {
+    background-color: #B1E5F2;
+}
+
+.table-50 {
+    width: 50%;
+}
+
+.text-highlighted {
+    margin: 25px 0;
+}
+
+.announcement {
+    color: grey;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.pic-1 {
+    background-image: url('../imgs/monitor.jpg');
+    color: white;
+    width: 312px;
+    height: 208px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.pic-2 {
+    background-image: url('../imgs/graph.jpg');
+    color: white;
+    width: 312px;
+    height: 208px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
